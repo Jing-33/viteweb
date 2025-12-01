@@ -1,0 +1,29 @@
+{
+  "name": "viteweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jing-33/viteweb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jing-33/viteweb/issues"
+  },
+  "homepage": "https://github.com/Jing-33/viteweb#readme",
+  "devDependencies": {
+    "sass": "^1.94.2",
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
