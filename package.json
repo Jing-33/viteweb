@@ -1,29 +1,17 @@
 {
-  "name": "viteweb",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "wenzao-cafe-site",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "vite",
+    "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jing-33/viteweb.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jing-33/viteweb/issues"
-  },
-  "homepage": "https://github.com/Jing-33/viteweb#readme",
   "devDependencies": {
-    "sass": "^1.94.2",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
+    "sass": "^1.96.0",
     "vite": "^7.2.4"
-  },
-  "dependencies": {
-    "bootstrap": "^5.3.8"
   }
 }
