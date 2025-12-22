@@ -1,0 +1,22 @@
+// src/custom.scss
+
+// 1. **文藻小咖啡** 主題色客製化
+// 覆寫 Bootstrap 預設的 Sass 變數
+$primary: #6F4E37;    // 主色：咖啡豆的深棕色
+$secondary: #A0522D;  // 次要色：摩卡/紅棕色
+$warning: #FFD700;    // 警告色：突顯熱門或特殊品項
+$success: #38761D;    // 成功色：用於抹茶或健康品項
+$danger: #D82D3D;     // 危險色：用於在地特色或推薦
+$light: #F5F5DC;      // 淺色：柔和的米白/奶油色
+$dark: #333333;       // 深色：用於頁尾或背景
+
+// 背景色和文字顏色
+$body-bg: $light; 
+$body-color: #333; 
+
+// 2. **字體客製化** (建議使用繁體中文友善字體，如果想載入外部字體，需要額外配置)
+// $font-family-sans-serif: "Noto Sans TC", sans-serif; 
+
+// 3. **匯入 Bootstrap**
+// 確保這是最後一步，這樣您的變數才會生效
+@import "bootstrap/scss/bootstrap";
